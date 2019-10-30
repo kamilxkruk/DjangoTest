@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<div style="text-align: center;">
+    <h2 >Memories generator</h2>
+    <form>
+        <input type="submit" onClick="history.go(0)" value="Generate new memory"  style="
+            border: 0;
+            background:lightskyblue;
+            box-shadow: none;
+            border-radius: 5px;
+            margin: 10px;"/>
+    </form>
+    <img src="https://picsum.photos/400/400" alt='memory photo' height="600" width="600">
+</div>
+{% endblock %}
